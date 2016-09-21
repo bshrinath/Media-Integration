@@ -10,6 +10,9 @@
 
 @interface SecondViewController : UIViewController
 
+@property (nonatomic, strong) UIImage *image;
+
+@property (nonatomic, strong) NSURL *outputURL;
 
 @end
 
